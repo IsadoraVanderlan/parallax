@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax</title>
+    <style>
+        /*Connfiguraçoes da padão da pagina*/
+        body, html {
+            margin: 0;
+            font: 16px "lato", sans-serif;
+            color: #777;
+            height: 100%;
+        }
+        .conteudo {
+            color: rgb(49, 45, 49);
+            background-color: white;
+            text-align: justify;
+            padding: 50px 80px;
+        }
+        h3 {
+            text-transform: uppercase;
+            color: rgba(46, 42, 42, 0.904);
+            text-align: center;
+        }
+        p{
+			margin-bottom: 20px;
+		}
+
+        /*Efeito Parallax*/
+        .caixa1, .caixa2, .caixa3, .caixa4, .caixa5 {
+            position: relative;
+            height: 100%;
+            opacity: 0.7;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .caixa1 {
+            background-image: url("img/1.jpg");
+        }
+        .caixa2 {
+            background-image: url("img/2.jpg");
+        }
+        .caixa3 {
+            background-image: url("img/3.jpg");
+        }
+        .caixa4 {
+            background-image: url("img/4.jpg");
+        }
+        .caixa5 {
+            background-image: url("img/5.jpg");
+        }
+        .conteudo-titulo {
+            position: absolute;
+            left: 0%;
+            top: 45%;
+            width: 100%;
+            text-align: center;
+        }
+        .conteudo-titulo span.titulo {
+            color: #fff;
+            background-color: rgba(48, 44, 44, 0.658);
+            padding: 18px;
+            font-size: 25px;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <div class="caixa1">
+        <div class="conteudo-titulo">
+            <span class="titulo">Talvez seu dia não começou bem</span>
+        </div>
+    </div>
+    <div class="conteudo">
+        <h3>Superando obstáculos</h3>
+        <P>Mesmo que essa seja uma fase difícil, você sabe que também irá passar por ela. Você é uma pessoa forte e comprometida a evoluir, dessa forma aprende com a vida até mesmo em momentos ruins. Permita-se sentir a grandeza que existe dentro de você para superar obstáculos.
+        </P>
+    </div>
+    <div class="caixa2">
+        <div class="conteudo-titulo">
+            <span class="titulo">Ou já não esteja nada bem ha um tempo</span>
+        </div>
+    </div>
+    <div class="conteudo">
+        <h3>Despertar </h3>
+        <P>O importante na vida não é errar simplesmente para aprender. É também se observar e se tornar um ser desperto e autoconsciente para reconhecer as situações e agir diante delas. Pratique o seu autoconhecimento e desperte o seu olhar para a vida, veja além daquilo que seus olhos alcançam.
+        </P>
+    </div>
+    <div class="caixa3">
+        <div class="conteudo-titulo">
+            <span class="titulo">Talvez você está pensando em desistir</span>
+        </div>
+    </div>
+    <div class="conteudo">
+        <h3>Perspectivas </h3>
+        <P>Veja como até mesmo em momentos difíceis existem coisas boas. É sempre possível notar as belezas cotidianas, basta saber olhar para elas. Permita-se focar nas coisas boas e aprender com as coisas ruins, pois tudo sempre será uma enorme questão de perspectiva!
+        </P>
+    </div>
+    <div class="caixa4">
+        <div class="conteudo-titulo">
+            <span class="titulo">Mas amanha é um novo dia</span>
+        </div>
+    </div>
+    <div class="conteudo">
+        <h3>Valores</h3>
+        <P>Ainda que na sua vida você se encontre numa posição em que abandonar seus valores pode lhe trazer sucesso, mantenha-se fiel àquilo em que você acredita. Trair seu coração e aquilo que você acha certo é um preço mais caro do que você imagina e o sucesso ganho de tal forma nunca trará verdadeira satisfação.
+        </P>
+    </div>
+    <div class="caixa5">
+        <div class="conteudo-titulo">
+            <span class="titulo">E tudo vai ser diferente</span>
+        </div>
+    </div>
+</body>
+</html>
