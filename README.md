@@ -1,2 +1,2 @@
 # parallax
- Parallax Curso Udemy.
+ Introduzido no curso Desenvolvimento Web Completo 2021, na Plataforma Udemy
